@@ -4,92 +4,129 @@
     <title>S.Kaviya - Portfolio</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f6f9;
+            background-color: #0f172a;
+            color: #f1f5f9;
         }
-        h1 {
-            color: #2c3e50;
+
+        header {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
         }
+
+        section {
+            padding: 30px;
+            margin: 20px;
+            background: #1e293b;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
         h2 {
-            background-color: #2c3e50;
-            color: white;
-            padding: 8px;
+            color: #38bdf8;
+            border-bottom: 2px solid #38bdf8;
+            padding-bottom: 5px;
         }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        table, th, td {
-            border: 1px solid #ccc;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
+
         ul {
             line-height: 1.8;
+        }
+
+        .project-card {
+            background: #334155;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1e293b;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #94a3b8;
         }
     </style>
 </head>
 
 <body>
 
-<h1>S.Kaviya - Student Portfolio</h1>
+<header>
+    S.Kaviya | Student Portfolio
+</header>
 
 <!-- Section 1 -->
-<h2>Section 1 – Student Profile</h2>
-<p><strong>Name:</strong> S.Kaviya</p>
-<p><strong>Roll Number:</strong> RA2411003050232</p>
-<p><strong>Email:</strong> kaviyasivaji217@gmail.com</p>
-<p><strong>Skills:</strong> C, Python, Java</p>
+<section>
+    <h2>Section 1 – Student Profile</h2>
+    <p><strong>Name:</strong> S.Kaviya</p>
+    <p><strong>Roll Number:</strong> RA2411003050232</p>
+    <p><strong>Email:</strong> kaviyasivaji217@gmail.com</p>
+    <p><strong>Skills:</strong> C, Python, Java</p>
+</section>
 
 <!-- Section 2 -->
-<h2>Section 2 – Academic Details</h2>
-<p><strong>CGPA:</strong> 8.61</p>
+<section>
+    <h2>Section 2 – Academic Details</h2>
+    <p><strong>CGPA:</strong> 8.61</p>
 
-<h3>Courses Completed</h3>
-<ul>
-<li>Japanese</li>
-<li>Calculus and Linear Algebra</li>
-<li>Chemistry</li>
-<li>Introduction to Computational Biology</li>
-<li>Programming for Problem Solving</li>
-<li>Philosophy of Engineering</li>
-<li>Basic Civil and Mechanical Workshop</li>
-<li>Physical and Mental Health Using Yoga</li>
-<li>Communicative English</li>
-<li>Constitution of India</li>
-<li>Advanced Calculus and Complex Analysis</li>
-<li>Semiconductor Physics and Computational Methods</li>
-<li>Electrical and Electronics Engineering</li>
-<li>Object Oriented Design and Programming</li>
-<li>Environmental Science</li>
-<li>General Aptitude</li>
-<li>Engineering Graphics and Design</li>
-<li>Transforms and Boundary Value Problems</li>
-<li>Data Structures and Algorithms</li>
-<li>Operating Systems</li>
-<li>Computer Organization and Architecture</li>
-<li>Advanced Programming Practice</li>
-<li>Design Thinking and Methodology</li>
-<li>Professional Ethics</li>
-</ul>
+    <h3>Courses Completed</h3>
+    <ul>
+        <li>Programming for Problem Solving</li>
+        <li>Object Oriented Design and Programming</li>
+        <li>Data Structures and Algorithms</li>
+        <li>Operating Systems</li>
+        <li>Computer Organization and Architecture</li>
+        <li>Advanced Programming Practice</li>
+        <li>Engineering Graphics and Design</li>
+        <li>Environmental Science</li>
+        <li>Professional Ethics</li>
+        <li>General Aptitude</li>
+    </ul>
+</section>
+
+<!-- Section 3 -->
+<section>
+    <h2>Section 3 – Projects</h2>
+
+    <div class="project-card">
+        <h3>Java Billing System</h3>
+        <p>Developed using Java Swing with GUI components.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>File Handling Project</h3>
+        <p>Implemented file read/write operations in Java.</p>
+    </div>
+
+</section>
 
 <!-- Section 4 -->
-<h2>Section 4 – Certifications</h2>
-<p><strong>Course Name:</strong> The Sustainable Development Goals - A Global Interdisciplinary Vision for the Future</p>
-<p><strong>Platform:</strong> Coursera</p>
-<p><strong>Date:</strong> 11/02/2026</p>
+<section>
+    <h2>Section 4 – Certifications</h2>
+    <p><strong>Course:</strong> The Sustainable Development Goals - A Global Interdisciplinary Vision for the Future</p>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Date:</strong> 11/02/2026</p>
+</section>
 
-<!-- Section 6 -->
-<h2>Section 6 – Achievements</h2>
-<ul>
-<li>Participated in Hackathon</li>
-<li>CodeCraft'25 Hackathon</li>
-<li>NoobFest Startup Hackathon</li>
-</ul>
+<!-- Section 5 -->
+<section>
+    <h2>Section 5 – Achievements</h2>
+    <ul>
+        <li>Participated in Hackathon</li>
+        <li>CodeCraft'25 Hackathon</li>
+        <li>NoobFest Startup Hackathon</li>
+    </ul>
+</section>
+
+<footer>
+    ©️ 2026 S.Kaviya | Portfolio Website
+</footer>
 
 </body>
 </html>
